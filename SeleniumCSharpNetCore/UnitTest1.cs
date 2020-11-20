@@ -14,8 +14,7 @@ namespace SeleniumCSharpNetCore
         {
             Console.WriteLine("Setup");
             ChromeOptions options = new ChromeOptions();
-            options.AddArgument("--no - sandbox");
-            options.AddArgument("--disable-dev-shm-usage");
+            options.AddArgument("--headless");
             Driver = new ChromeDriver(options);
         }
 
