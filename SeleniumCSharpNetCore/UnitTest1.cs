@@ -22,7 +22,7 @@ namespace SeleniumCSharpNetCore
             Driver.Navigate().GoToUrl("https://demo.aspnetawesome.com/");
             Driver.FindElement(By.Id("Meal")).SendKeys("Tomato");
             Driver.FindElement(By.XPath("//div[@class='o-con'][normalize-space()='Celery']")).Click();
-            Console.WriteLine("Setup 1");
+            Console.WriteLine("Sample Test Message to test the Git Commit Feature");
             Assert.Pass();
         }
     }
